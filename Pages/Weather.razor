@@ -1,0 +1,158 @@
+﻿@page "/weather"
+@inject HttpClient Http
+
+<h3>Simplified Weather 5-Day Forecast</h3>
+
+@*input bar for UI to search city and state*@
+<input type="text" @bind="message" placeholder="Enter city and state" />
+<button @onclick="GetForecastAsync">Search</button>
+
+
+<button @onclick="TestApiForecastAsync">Test API</button>
+
+<pre>@message</pre>
+
+@code {
+    string message = "";
+    private ForecastResponse forecast;
+    private string errorMessage;
+
+    private async Task TestApiForecastAsync()
+    {
+        try
+        {
+            var client = new HttpClient(); 
+            var url = "https://api.open-meteo.com/v1/forecast?latitude=37.98869&longitude=-84.47772&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=America/New_York";
+
+            var response = await client.GetAsync(url);
+            message = await response.Content.ReadAsStringAsync();
+        }
+        catch (Exception ex)
+        {
+            message = ex.Message;
+        }
+    }
+
+    //method to get forecast based on user input
+    private async Task GetForecastAsync()
+    {        
+        string locationInput = message.Trim();
+
+        // Validate user input
+        if (string.IsNullOrWhiteSpace(locationInput))
+        {
+            message = "Please enter a valid city and state.";
+            return;
+        }
+        try
+        {
+
+            var (city, stateAbbreviation) = LocationParse.ParseLocation(locationInput);
+            Console.WriteLine($"Looking for city '{city}' in state '{stateAbbreviation}\n'");
+
+            string encodedCity = Uri.EscapeDataString(city);
+            //search the Geocode API for the location's name (LocationParse.city), filter API call results with LocationParse.state, get the latitude and longitude, make API call to Open-Meteo.com to get the forecast for the location. 
+            var geoUrl = $"https://geocoding-api.open-meteo.com/v1/search?name={encodedCity}&count=10"; 
+
+            var client = new HttpClient();
+            var geoResponse = await client.GetAsync(geoUrl);
+            if (!geoResponse.IsSuccessStatusCode)
+            {
+                message = "Error fetching location data.";
+                return;
+            }
+            var geoContent = await geoResponse.Content.ReadAsStringAsync();
+            var geoData = System.Text.Json.JsonSerializer.Deserialize<GeocodeResult>(geoContent);
+            
+            if (geoData == null || geoData.Results == null || geoData.Results.Count == 0)
+            {
+                message = "No results found for the specified location.";
+                message = string.Join("\n", geoData.Results.Select(r => $"Name: {r.name}, admin1: '{r.admin1}', admin2: '{r.admin2}', country: {r.country}"));
+                return;
+            }
+            
+            message = $"Looking for city '{city}' in state '{stateAbbreviation}'";
+            foreach (var loc in geoData.Results)
+            {
+                message += $"{loc.name}, {loc.admin1}, {loc.admin2} ({loc.latitude}, {loc.longitude})\n";
+            }
+
+            //convert the state abbreviation to full state name using dictionary StateAbbreviations
+            //string fullStateName = StateAbbreviations.StateAbbreviationsDict[stateAbbreviation];
+            if (!StateAbbreviations.StateAbbreviationsDict.TryGetValue(stateAbbreviation, out string fullStateName))
+            {
+                message = "Invalid state abbreviation.";
+                return;
+            }
+
+            var matchingLocation = geoData.Results
+                .FirstOrDefault(r =>
+                string.Equals(r.name?.Trim(), city.Trim(), StringComparison.OrdinalIgnoreCase)
+                && (string.Equals(r.admin1?.Trim(), fullStateName.Trim(), StringComparison.OrdinalIgnoreCase)
+                || string.Equals(r.admin2?.Trim(), fullStateName.Trim(), StringComparison.OrdinalIgnoreCase)));
+
+            Console.WriteLine($"fullStateName: '{fullStateName}' (Length: {fullStateName?.Length ?? 0})");
+
+
+            foreach (var r in geoData.Results)
+            {
+                Console.WriteLine($"Checking: Name='{r.name}', Admin1='{r.admin1}', Admin2='{r.admin2}'");
+
+                bool cityMatch = string.Equals(r.name?.Trim(), city.Trim(), StringComparison.OrdinalIgnoreCase);
+                bool stateMatch = string.Equals(r.admin1?.Trim(), fullStateName.Trim(), StringComparison.OrdinalIgnoreCase)
+                                  || string.Equals(r.admin2?.Trim(), fullStateName.Trim(), StringComparison.OrdinalIgnoreCase);
+
+                Console.WriteLine($"  cityMatch: {cityMatch}, stateMatch: {stateMatch}");
+
+                if (cityMatch && stateMatch)
+                {
+                    Console.WriteLine("  --> Matched!");
+                    // You can set matchingLocation here if you want or just confirm this prints
+                }
+            }
+
+
+
+
+
+            if (matchingLocation == null)
+            {
+                message += "No matching location found for the specified city and state.";
+                
+                return;
+            }
+            else
+            {
+                message += $"Found matching location: {matchingLocation.name}, {matchingLocation.admin1}, {matchingLocation.admin2} ({matchingLocation.latitude}, {matchingLocation.longitude})\n";
+            }
+        
+
+            double latitude = matchingLocation.latitude;
+            double longitude = matchingLocation.longitude;
+
+            string forecastUrl = $"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=UTC";
+            var response = await client.GetAsync(forecastUrl);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                message = "Error fetching forecast data.";
+                return;
+            }
+
+            var forecastResponse = await response.Content.ReadFromJsonAsync<ForecastResponse>();
+
+
+            forecast = forecastResponse;
+            errorMessage = null;
+            message = "";
+        }
+        catch (Exception ex)
+        {
+            message = ex.Message;
+        }
+    }
+
+}
+
+
+
