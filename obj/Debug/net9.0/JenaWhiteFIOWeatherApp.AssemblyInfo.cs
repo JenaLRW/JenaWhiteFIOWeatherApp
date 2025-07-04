@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JenaWhiteFIOWeatherApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd6febb46f118814ea6176138bfb7f9b1c11f271")]
 [assembly: System.Reflection.AssemblyProductAttribute("JenaWhiteFIOWeatherApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JenaWhiteFIOWeatherApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

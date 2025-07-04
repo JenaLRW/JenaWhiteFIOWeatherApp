@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mVx8xys7PmaxlisD0fUG2LJ4/b1bPDkOt3zRjMvV5rE=",
+  "Hash": "oR8bhK5H69HJ3pv3SVlEHduzcNuRia1DQY16vXFgOPA=",
   "Source": "JenaWhiteFIOWeatherApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "1sinkt7f8l",
-      "Integrity": "L+ne5nzTyjrj4cE0XpzklZDKSyMCNpdUQ82v5wDYe74=",
+      "Fingerprint": "bne6l9kdvb",
+      "Integrity": "pwjAT6x6DiB6d6F/dyVcJlRQiPSZ9ChLdDsEbG0WffE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "q3ft8bg2a1",
-      "Integrity": "toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM=",
+      "Fingerprint": "3789smcg91",
+      "Integrity": "vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\JenaWhiteFIOWeatherApp.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ur2eybdrsb",
-      "Integrity": "igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg=",
+      "Fingerprint": "6h8swb51wm",
+      "Integrity": "FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\webcil\\JenaWhiteFIOWeatherApp.wasm"
@@ -4616,7 +4616,7 @@
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.wasm"
     },
     {
-      "Identity": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\1s6dbplra1-1sinkt7f8l.gz",
+      "Identity": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\1s6dbplra1-bne6l9kdvb.gz",
       "SourceId": "JenaWhiteFIOWeatherApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -4630,8 +4630,8 @@
       "RelatedAsset": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7b7anu6wda",
-      "Integrity": "fa2k7i1jLGiy8lR4vSoNu+UcHxfdDbtAkSH8fqWQVBQ=",
+      "Fingerprint": "ky741lkorf",
+      "Integrity": "tKmpDjUHU0eZ9eP1vXnh8VqnONdqVCAef1ric0CI3RU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8207,12 +8207,12 @@
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-ur2eybdrsb.gz",
+      "Identity": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-6h8swb51wm.gz",
       "SourceId": "JenaWhiteFIOWeatherApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/JenaWhiteFIOWeatherApp#[.{fingerprint=ur2eybdrsb}]!.wasm.gz",
+      "RelativePath": "_framework/JenaWhiteFIOWeatherApp#[.{fingerprint=6h8swb51wm}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8221,8 +8221,8 @@
       "RelatedAsset": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sf5yoksig6",
-      "Integrity": "+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU=",
+      "Fingerprint": "fep9w1e3aa",
+      "Integrity": "10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.wasm"
@@ -9236,12 +9236,12 @@
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-q3ft8bg2a1.gz",
+      "Identity": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-3789smcg91.gz",
       "SourceId": "JenaWhiteFIOWeatherApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/JenaWhiteFIOWeatherApp#[.{fingerprint=q3ft8bg2a1}]!.pdb.gz",
+      "RelativePath": "_framework/JenaWhiteFIOWeatherApp#[.{fingerprint=3789smcg91}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9250,8 +9250,8 @@
       "RelatedAsset": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6r3uqfawxe",
-      "Integrity": "fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8=",
+      "Fingerprint": "lb6as5tenu",
+      "Integrity": "f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.pdb"
@@ -10705,11 +10705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L+ne5nzTyjrj4cE0XpzklZDKSyMCNpdUQ82v5wDYe74=\""
+          "Value": "\"pwjAT6x6DiB6d6F/dyVcJlRQiPSZ9ChLdDsEbG0WffE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +10719,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L+ne5nzTyjrj4cE0XpzklZDKSyMCNpdUQ82v5wDYe74="
+          "Value": "sha256-pwjAT6x6DiB6d6F/dyVcJlRQiPSZ9ChLdDsEbG0WffE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\1s6dbplra1-1sinkt7f8l.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\1s6dbplra1-bne6l9kdvb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080945443"
+          "Quality": "0.000080932341"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +10740,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12353"
+          "Value": "12355"
         },
         {
           "Name": "ETag",
-          "Value": "\"fa2k7i1jLGiy8lR4vSoNu+UcHxfdDbtAkSH8fqWQVBQ=\""
+          "Value": "\"tKmpDjUHU0eZ9eP1vXnh8VqnONdqVCAef1ric0CI3RU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:56:15 GMT"
+          "Value": "Fri, 04 Jul 2025 04:05:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"L+ne5nzTyjrj4cE0XpzklZDKSyMCNpdUQ82v5wDYe74=\""
+          "Value": "W/\"pwjAT6x6DiB6d6F/dyVcJlRQiPSZ9ChLdDsEbG0WffE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L+ne5nzTyjrj4cE0XpzklZDKSyMCNpdUQ82v5wDYe74="
+          "Value": "sha256-pwjAT6x6DiB6d6F/dyVcJlRQiPSZ9ChLdDsEbG0WffE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\1s6dbplra1-1sinkt7f8l.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\1s6dbplra1-bne6l9kdvb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12353"
+          "Value": "12355"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fa2k7i1jLGiy8lR4vSoNu+UcHxfdDbtAkSH8fqWQVBQ=\""
+          "Value": "\"tKmpDjUHU0eZ9eP1vXnh8VqnONdqVCAef1ric0CI3RU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:56:15 GMT"
+          "Value": "Fri, 04 Jul 2025 04:05:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fa2k7i1jLGiy8lR4vSoNu+UcHxfdDbtAkSH8fqWQVBQ="
+          "Value": "sha256-tKmpDjUHU0eZ9eP1vXnh8VqnONdqVCAef1ric0CI3RU="
         }
       ]
     },
@@ -13643,7 +13643,7 @@
       ]
     },
     {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.pdb",
+      "Route": "_framework/JenaWhiteFIOWeatherApp.3789smcg91.pdb",
       "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13653,7 +13653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25576"
+          "Value": "25896"
         },
         {
           "Name": "Content-Type",
@@ -13661,148 +13661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM=\""
+          "Value": "\"vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.pdb",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-q3ft8bg2a1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000055291386"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18085"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.pdb.gz",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-q3ft8bg2a1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18085"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.q3ft8bg2a1.pdb",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25576"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13812,7 +13675,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q3ft8bg2a1"
+          "Value": "3789smcg91"
         },
         {
           "Name": "label",
@@ -13820,18 +13683,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM="
+          "Value": "sha256-vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0="
         }
       ]
     },
     {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.q3ft8bg2a1.pdb",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-q3ft8bg2a1.gz",
+      "Route": "_framework/JenaWhiteFIOWeatherApp.3789smcg91.pdb",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-3789smcg91.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000055291386"
+          "Quality": "0.000054579194"
         }
       ],
       "ResponseHeaders": [
@@ -13841,15 +13704,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18085"
+          "Value": "18321"
         },
         {
           "Name": "ETag",
-          "Value": "\"fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8=\""
+          "Value": "\"f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13869,13 +13732,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM=\""
+          "Value": "W/\"vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q3ft8bg2a1"
+          "Value": "3789smcg91"
         },
         {
           "Name": "label",
@@ -13883,13 +13746,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-toUCYGkikqUz3iDjovCP8Yd5IVGatKfG85l7rjjqmfM="
+          "Value": "sha256-vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0="
         }
       ]
     },
     {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.q3ft8bg2a1.pdb.gz",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-q3ft8bg2a1.gz",
+      "Route": "_framework/JenaWhiteFIOWeatherApp.3789smcg91.pdb.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-3789smcg91.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13898,7 +13761,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18085"
+          "Value": "18321"
         },
         {
           "Name": "Content-Type",
@@ -13906,11 +13769,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8=\""
+          "Value": "\"f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13928,7 +13791,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q3ft8bg2a1"
+          "Value": "3789smcg91"
         },
         {
           "Name": "label",
@@ -13936,12 +13799,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fvuYsvqNlCmpYYVNXyA7IugDffvKKff9ovZMTJkyBQ8="
+          "Value": "sha256-f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E="
         }
       ]
     },
     {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.ur2eybdrsb.wasm",
+      "Route": "_framework/JenaWhiteFIOWeatherApp.6h8swb51wm.wasm",
       "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13951,7 +13814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30485"
+          "Value": "31509"
         },
         {
           "Name": "Content-Type",
@@ -13959,11 +13822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg=\""
+          "Value": "\"FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13973,7 +13836,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ur2eybdrsb"
+          "Value": "6h8swb51wm"
         },
         {
           "Name": "label",
@@ -13981,18 +13844,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg="
+          "Value": "sha256-FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE="
         }
       ]
     },
     {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.ur2eybdrsb.wasm",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-ur2eybdrsb.gz",
+      "Route": "_framework/JenaWhiteFIOWeatherApp.6h8swb51wm.wasm",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-6h8swb51wm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077273781"
+          "Quality": "0.000075849515"
         }
       ],
       "ResponseHeaders": [
@@ -14002,15 +13865,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12940"
+          "Value": "13183"
         },
         {
           "Name": "ETag",
-          "Value": "\"+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU=\""
+          "Value": "\"10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14030,13 +13893,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg=\""
+          "Value": "W/\"FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ur2eybdrsb"
+          "Value": "6h8swb51wm"
         },
         {
           "Name": "label",
@@ -14044,13 +13907,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg="
+          "Value": "sha256-FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE="
         }
       ]
     },
     {
-      "Route": "_framework/JenaWhiteFIOWeatherApp.ur2eybdrsb.wasm.gz",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-ur2eybdrsb.gz",
+      "Route": "_framework/JenaWhiteFIOWeatherApp.6h8swb51wm.wasm.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-6h8swb51wm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14059,7 +13922,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12940"
+          "Value": "13183"
         },
         {
           "Name": "Content-Type",
@@ -14067,11 +13930,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU=\""
+          "Value": "\"10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14089,7 +13952,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ur2eybdrsb"
+          "Value": "6h8swb51wm"
         },
         {
           "Name": "label",
@@ -14097,7 +13960,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU="
+          "Value": "sha256-10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/JenaWhiteFIOWeatherApp.pdb",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JenaWhiteFIOWeatherApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/JenaWhiteFIOWeatherApp.pdb",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-3789smcg91.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000054579194"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18321"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vwUESxEKW5Q+hLB3/rmWS1HgM2wRDNiFD8IoeD1uDa0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/JenaWhiteFIOWeatherApp.pdb.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\wj5sv6vaf3-3789smcg91.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f6EKUYtbrK/4Uv/o9R70NMgPPhohGsRohSaP9w2qd5E="
         }
       ]
     },
@@ -14112,7 +14112,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30485"
+          "Value": "31509"
         },
         {
           "Name": "Content-Type",
@@ -14120,11 +14120,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg=\""
+          "Value": "\"FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14134,18 +14134,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg="
+          "Value": "sha256-FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE="
         }
       ]
     },
     {
       "Route": "_framework/JenaWhiteFIOWeatherApp.wasm",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-ur2eybdrsb.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-6h8swb51wm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077273781"
+          "Quality": "0.000075849515"
         }
       ],
       "ResponseHeaders": [
@@ -14155,15 +14155,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12940"
+          "Value": "13183"
         },
         {
           "Name": "ETag",
-          "Value": "\"+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU=\""
+          "Value": "\"10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14183,19 +14183,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg=\""
+          "Value": "W/\"FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-igMzm5riA8FGwnQGwLPmakKp9GryquT6VprJhFrdZCg="
+          "Value": "sha256-FipRFF0Kj5aFWOoTHj8qwp0rWBUFubIenwiLIy6d7bE="
         }
       ]
     },
     {
       "Route": "_framework/JenaWhiteFIOWeatherApp.wasm.gz",
-      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-ur2eybdrsb.gz",
+      "AssetFile": "C:\\Users\\jenal\\source\\repos\\JenaWhiteFIOWeatherApp\\obj\\Debug\\net9.0\\compressed\\pb9m3id592-6h8swb51wm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14204,7 +14204,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12940"
+          "Value": "13183"
         },
         {
           "Name": "Content-Type",
@@ -14212,11 +14212,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU=\""
+          "Value": "\"10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 08:59:31 GMT"
+          "Value": "Fri, 04 Jul 2025 04:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14234,7 +14234,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+IeNCng+duWGThDzdf0NZwKYsqtBqjhJJYduVCzSgeU="
+          "Value": "sha256-10wloWhsOON+ho/flsLW+l+xCIFx5l01hyauxGQj2Z8="
         }
       ]
     },

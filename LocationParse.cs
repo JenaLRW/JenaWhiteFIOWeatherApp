@@ -13,6 +13,9 @@
             // The first part is the city, the second part is the stateAbbreviation
             string city = parts[0].Trim();
             string stateAbbreviation = parts[1].Trim().ToUpper();
+            // Debugging: print the parsed stateAbbreviation from user input
+            Console.WriteLine($"Parsed state abbreviation from input: {stateAbbreviation}");
+
             // Check if we have at least two parts (city and stateAbbreviation)
             if (parts.Length < 2)
             {
@@ -28,12 +31,22 @@
             
             // Validate the stateAbbreviation against the dictionary
             if (!StateAbbreviations.StateAbbreviationsDict.ContainsKey(stateAbbreviation))
+
             {
+
                 throw new ArgumentException($"State '{stateAbbreviation}' is not valid. Please use a valid state abbreviation (e.g. 'KY').");
             }
 
-            string fullStateName = StateAbbreviations.StateAbbreviationsDict.FirstOrDefault(x => x.Value == stateAbbreviation).Key;
-            return (city, fullStateName);
+            //string fullStateName = StateAbbreviations.StateAbbreviationsDict.FirstOrDefault(x => x.Value == stateAbbreviation).Key;
+
+            string fullStateName = StateAbbreviations.StateAbbreviationsDict[stateAbbreviation];
+
+            // Debugging: print the result of the dictionary lookup for fullStateName
+            Console.WriteLine($"Dictionary lookup for stateAbbreviation '{stateAbbreviation}' returned fullStateName: '{fullStateName}'");
+
+            Console.WriteLine($"Parsed city: {city}, full state name: {fullStateName}");
+
+            return (city, stateAbbreviation);
         }
     }
 }

@@ -79,6 +79,8 @@
 
             //convert the state abbreviation to full state name using dictionary StateAbbreviations
             //string fullStateName = StateAbbreviations.StateAbbreviationsDict[stateAbbreviation];
+            Console.WriteLine($"[DEBUG] About to lookup stateAbbreviation: '{stateAbbreviation}'");
+
             if (!StateAbbreviations.StateAbbreviationsDict.TryGetValue(stateAbbreviation, out string fullStateName))
             {
                 message = "Invalid state abbreviation.";

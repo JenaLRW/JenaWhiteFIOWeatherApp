@@ -56,5 +56,18 @@
             {"WI", "Wisconsin"},
             {"WY", "Wyoming"},
         };
+
+        // Debugging method to test dictionary lookup
+        public static void DebugLookup(string abbreviation)
+        {
+            if (StateAbbreviationsDict.TryGetValue(abbreviation, out var fullName))
+            {
+                Console.WriteLine($"[StateAbbreviations] Lookup for '{abbreviation}' returned: '{fullName}'");
+            }
+            else
+            {
+                Console.WriteLine($"[StateAbbreviations] Lookup for '{abbreviation}' failed.");
+            }
+        }
     }
 }
