@@ -34,7 +34,7 @@
 
             {
 
-                throw new ArgumentException($"State '{stateAbbreviation}' is not valid. Please use a valid state abbreviation (e.g. 'KY').");
+                throw new ArgumentException($"Please use a valid state abbreviation (e.g. 'KY').");
             }
 
             //string fullStateName = StateAbbreviations.StateAbbreviationsDict.FirstOrDefault(x => x.Value == stateAbbreviation).Key;

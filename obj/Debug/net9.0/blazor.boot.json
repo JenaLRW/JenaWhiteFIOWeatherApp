@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "JenaWhiteFIOWeatherApp",
   "resources": {
-    "hash": "sha256-g/nUUTfej1r/qjsNYUpg9siHJ9MoYzwHqRtIWtzSrEg=",
+    "hash": "sha256-KII8WUlk8XBlNiCsjgRV3puebsCiUUbOb9Fqoj4YpCo=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.phaa9r44xv.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.4o2vz6uw5j.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "JenaWhiteFIOWeatherApp.2slvuq8wtf.wasm": "JenaWhiteFIOWeatherApp.wasm",
-      "JenaWhiteFIOWeatherApp.cgp3zfi1g8.pdb": "JenaWhiteFIOWeatherApp.pdb"
+      "JenaWhiteFIOWeatherApp.62z8ws41r9.wasm": "JenaWhiteFIOWeatherApp.wasm",
+      "JenaWhiteFIOWeatherApp.u63l4dpsxm.pdb": "JenaWhiteFIOWeatherApp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.rtblh4npr3.js": "sha256-HyBzcYNpT2l19+f1bpjNOa1oFoLe3K4JIQ6GsFK5m6I="
@@ -412,10 +412,10 @@
       "WindowsBase.u25hol0de4.wasm": "sha256-CgB28KCiYKHd4yK6IM0PJ526P7IbRCpNkGTqn+cLwxs=",
       "mscorlib.brg9pkj3je.wasm": "sha256-FzZwzxUYYyg3qxc7Km8r50UKAmRWrIeckSFG1NTHKNU=",
       "netstandard.wuzd3f1y6v.wasm": "sha256-yAXc0deBIRkWTVXqADZfhgZtrxGgJCIbZYVtA0NjvdM=",
-      "JenaWhiteFIOWeatherApp.2slvuq8wtf.wasm": "sha256-AoYVJscb721hHn7/U+L5cnU4LcdruJUMgAYxXXz2ZWU="
+      "JenaWhiteFIOWeatherApp.62z8ws41r9.wasm": "sha256-ggxCkloQgc79Kj3fvQmXKz7ehJeTNjQXZkvTYN8P148="
     },
     "pdb": {
-      "JenaWhiteFIOWeatherApp.cgp3zfi1g8.pdb": "sha256-ZF1PRsnausqaSDj/z363VVtWxgemVCZXQT+BRAWasjY="
+      "JenaWhiteFIOWeatherApp.u63l4dpsxm.pdb": "sha256-ZmtgrmcwfV5OeZ3//Yt1G9dbdDJGcACNjrgwtPbOZPQ="
     }
   },
   "cacheBootResources": true,

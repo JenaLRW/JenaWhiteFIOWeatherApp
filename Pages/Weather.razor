@@ -3,7 +3,7 @@
 
 <h3>Simplified Weather 5-Day Forecast</h3>
 
-<input type="text" @bind="message" placeholder="Enter city and state" />
+<input type="text" @bind="message" placeholder="Enter city, state" />
 <button @onclick="GetForecastAsync">Search</button>
 <button @onclick="Reset">Reset</button>
 
@@ -18,7 +18,7 @@
                 <th>Max Temp (°F)</th>
                 <th>Min Temp (°F)</th>
                 <th>Precipitation (mm)</th>
-                
+
             </tr>
         </thead>
         <tbody>
@@ -29,7 +29,7 @@
                     <td>@ToFahrenheit(forecast.Daily.Temperature_2m_Max[i]).ToString("F1") °F</td>
                     <td>@ToFahrenheit(forecast.Daily.Temperature_2m_Min[i]).ToString("F1") °F</td>
                     <td>@forecast.Daily.Precipitation_Sum[i]</td>
-                    
+
 
                 </tr>
             }
@@ -43,12 +43,23 @@
     private ForecastResponse forecast;
     private string errorMessage;
 
-    
+
     //method to get forecast based on user input
     private async Task GetForecastAsync()
     {
-        string locationInput = message.Trim(); 
-                
+        string locationInput = message.Trim();
+        message += "\n";
+
+        // Normalize input: if no comma, insert one before the last word
+        if (!locationInput.Contains(","))
+        {
+            var parts = locationInput.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            if (parts.Length >= 2)
+            {
+                // Join all but last as city, last as state
+                locationInput = string.Join(' ', parts.Take(parts.Length - 1)) + ", " + parts.Last();
+            }
+        }
         // Validate user input
         if (string.IsNullOrWhiteSpace(locationInput))
         {
@@ -77,16 +88,22 @@
             
             if (geoData == null || geoData.Results == null || geoData.Results.Count == 0)
             {
-                message = "No results found for the specified location.";
-                message = string.Join("\n", geoData.Results.Select(r => $"Name: {r.name}, admin1: '{r.admin1}', admin2: '{r.admin2}', country: {r.country}"));
+                message = $"No results found for '{city}'. Please check the city name and try again.";
                 return;
             }
+
+            // if (geoData == null || geoData.Results == null || geoData.Results.Count == 0)
+            // {
+            //     message = "No results found for the specified location.";
+            //     message = string.Join("\n", geoData.Results.Select(r => $"Name: {r.name}, admin1: '{r.admin1}', admin2: '{r.admin2}', country: {r.country}"));
+            //     return;
+            // }
             
-            message = $"Looking for city '{city}' in state '{stateAbbreviation}'";
-            foreach (var loc in geoData.Results)
-            {
-                message += $"{loc.name}, {loc.admin1}, {loc.admin2} ({loc.latitude}, {loc.longitude})\n";
-            }
+            // message = $"Looking for city '{city}' in state '{stateAbbreviation}'";
+            // foreach (var loc in geoData.Results)
+            // {
+            //     message += $"{loc.name}, {loc.admin1}, {loc.admin2} ({loc.latitude}, {loc.longitude})\n";
+            // }
 
                        
             Console.WriteLine($"[DEBUG] About to lookup stateAbbreviation: '{stateAbbreviation}'");
