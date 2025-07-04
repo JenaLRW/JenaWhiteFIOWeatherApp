@@ -3,14 +3,9 @@
 
 <h3>Simplified Weather 5-Day Forecast</h3>
 
-@*input bar for UI to search city and state*@
 <input type="text" @bind="message" placeholder="Enter city and state" />
 <button @onclick="GetForecastAsync">Search</button>
 <button @onclick="Reset">Reset</button>
-
-
-
-@*<button @onclick="TestApiForecastAsync">Test API</button>*@
 
 <pre>@message</pre>
 
@@ -23,16 +18,19 @@
                 <th>Max Temp (°F)</th>
                 <th>Min Temp (°F)</th>
                 <th>Precipitation (mm)</th>
+                
             </tr>
         </thead>
         <tbody>
             @for (int i = 0; i < Math.Min(5, forecast.Daily.Time.Count); i++)
             {
                 <tr>
-                    <td>@DateTime.Parse(forecast.Daily.Time[i]).ToString("dddd, yyyy-MM-dd")</td>
+                    <td>@DateTime.Parse(forecast.Daily.Time[i]).ToString("dddd, MMMM d")</td>
                     <td>@ToFahrenheit(forecast.Daily.Temperature_2m_Max[i]).ToString("F1") °F</td>
                     <td>@ToFahrenheit(forecast.Daily.Temperature_2m_Min[i]).ToString("F1") °F</td>
                     <td>@forecast.Daily.Precipitation_Sum[i]</td>
+                    
+
                 </tr>
             }
         </tbody>
@@ -45,22 +43,7 @@
     private ForecastResponse forecast;
     private string errorMessage;
 
-    // private async Task TestApiForecastAsync()
-    // {
-    //     try
-    //     {
-    //         var client = new HttpClient(); 
-    //         var url = "https://api.open-meteo.com/v1/forecast?latitude=37.98869&longitude=-84.47772&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=America/New_York";
-
-    //         var response = await client.GetAsync(url);
-    //         message = await response.Content.ReadAsStringAsync();
-    //     }
-    //     catch (Exception ex)
-    //     {
-    //         message = ex.Message;
-    //     }
-    // }
-
+    
     //method to get forecast based on user input
     private async Task GetForecastAsync()
     {
@@ -105,8 +88,7 @@
                 message += $"{loc.name}, {loc.admin1}, {loc.admin2} ({loc.latitude}, {loc.longitude})\n";
             }
 
-            //convert the state abbreviation to full state name using dictionary StateAbbreviations
-            //string fullStateName = StateAbbreviations.StateAbbreviationsDict[stateAbbreviation];
+                       
             Console.WriteLine($"[DEBUG] About to lookup stateAbbreviation: '{stateAbbreviation}'");
 
             if (!StateAbbreviations.StateAbbreviationsDict.TryGetValue(stateAbbreviation, out string fullStateName))
@@ -137,7 +119,7 @@
                 if (cityMatch && stateMatch)
                 {
                     Console.WriteLine("  --> Matched!");
-                    // You can set matchingLocation here if you want or just confirm this prints
+                   
                 }
             }
 

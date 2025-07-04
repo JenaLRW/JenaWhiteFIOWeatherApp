@@ -22,6 +22,8 @@ namespace JenaWhiteFIOWeatherApp
 
         [JsonPropertyName("precipitation_sum")]
         public List<double> Precipitation_Sum { get; set; } = new List<double>();
+        
+       
     }
 
 }

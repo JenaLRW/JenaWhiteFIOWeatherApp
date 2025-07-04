@@ -1076,10 +1076,10 @@ C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\refint\JenaW
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\JenaWhiteFIOWeatherApp.pdb
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\ref\JenaWhiteFIOWeatherApp.dll
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\JenaWhiteFIOWeatherApp.sourcelink.json
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.0qc9gm2147.pdb
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.258ip5rcqe.wasm
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.258ip5rcqe.wasm.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.0qc9gm2147.pdb.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\pb9m3id592-258ip5rcqe.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\wj5sv6vaf3-0qc9gm2147.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\1s6dbplra1-2ae7ozm75m.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.cgp3zfi1g8.pdb
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.2slvuq8wtf.wasm
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.2slvuq8wtf.wasm.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.cgp3zfi1g8.pdb.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\pb9m3id592-2slvuq8wtf.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\wj5sv6vaf3-cgp3zfi1g8.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\1s6dbplra1-w9xywfjb8z.gz
