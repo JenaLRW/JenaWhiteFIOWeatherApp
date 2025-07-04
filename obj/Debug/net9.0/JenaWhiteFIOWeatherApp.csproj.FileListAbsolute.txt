@@ -1076,10 +1076,10 @@ C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\refint\JenaW
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\JenaWhiteFIOWeatherApp.pdb
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\ref\JenaWhiteFIOWeatherApp.dll
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\JenaWhiteFIOWeatherApp.sourcelink.json
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.3789smcg91.pdb
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.6h8swb51wm.wasm
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.6h8swb51wm.wasm.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.3789smcg91.pdb.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\pb9m3id592-6h8swb51wm.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\wj5sv6vaf3-3789smcg91.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\1s6dbplra1-bne6l9kdvb.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.zxa3b5oga5.pdb
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.w5pzpy0fbm.wasm
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.w5pzpy0fbm.wasm.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.zxa3b5oga5.pdb.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\pb9m3id592-w5pzpy0fbm.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\wj5sv6vaf3-zxa3b5oga5.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\1s6dbplra1-8r9carna54.gz

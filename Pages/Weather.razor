@@ -8,36 +8,63 @@
 <button @onclick="GetForecastAsync">Search</button>
 
 
-<button @onclick="TestApiForecastAsync">Test API</button>
+
+@*<button @onclick="TestApiForecastAsync">Test API</button>*@
 
 <pre>@message</pre>
+
+@if (forecast?.Daily?.Time != null && forecast.Daily.Time.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Max Temp (°F)</th>
+                <th>Min Temp (°F)</th>
+                <th>Precipitation (mm)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Math.Min(5, forecast.Daily.Time.Count); i++)
+            {
+                <tr>
+                    <td>@DateTime.Parse(forecast.Daily.Time[i]).ToString("dddd, yyyy-MM-dd")</td>
+                    <td>@ToFahrenheit(forecast.Daily.Temperature_2m_Max[i]).ToString("F1") °F</td>
+                    <td>@ToFahrenheit(forecast.Daily.Temperature_2m_Min[i]).ToString("F1") °F</td>
+                    <td>@forecast.Daily.Precipitation_Sum[i]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
 
 @code {
     string message = "";
     private ForecastResponse forecast;
     private string errorMessage;
 
-    private async Task TestApiForecastAsync()
-    {
-        try
-        {
-            var client = new HttpClient(); 
-            var url = "https://api.open-meteo.com/v1/forecast?latitude=37.98869&longitude=-84.47772&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=America/New_York";
+    // private async Task TestApiForecastAsync()
+    // {
+    //     try
+    //     {
+    //         var client = new HttpClient(); 
+    //         var url = "https://api.open-meteo.com/v1/forecast?latitude=37.98869&longitude=-84.47772&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=America/New_York";
 
-            var response = await client.GetAsync(url);
-            message = await response.Content.ReadAsStringAsync();
-        }
-        catch (Exception ex)
-        {
-            message = ex.Message;
-        }
-    }
+    //         var response = await client.GetAsync(url);
+    //         message = await response.Content.ReadAsStringAsync();
+    //     }
+    //     catch (Exception ex)
+    //     {
+    //         message = ex.Message;
+    //     }
+    // }
 
     //method to get forecast based on user input
     private async Task GetForecastAsync()
-    {        
-        string locationInput = message.Trim();
-
+    {
+        string locationInput = message.Trim(); 
+                
         // Validate user input
         if (string.IsNullOrWhiteSpace(locationInput))
         {
@@ -147,11 +174,18 @@
             forecast = forecastResponse;
             errorMessage = null;
             message = "";
+
+
         }
         catch (Exception ex)
         {
             message = ex.Message;
         }
+
+    }
+    private double ToFahrenheit(double celsius)
+    {
+        return celsius * 9 / 5 + 32;
     }
 
 }
