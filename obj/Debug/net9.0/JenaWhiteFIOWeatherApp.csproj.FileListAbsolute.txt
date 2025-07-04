@@ -1076,10 +1076,10 @@ C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\refint\JenaW
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\JenaWhiteFIOWeatherApp.pdb
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\ref\JenaWhiteFIOWeatherApp.dll
 C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\JenaWhiteFIOWeatherApp.sourcelink.json
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.zxa3b5oga5.pdb
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.w5pzpy0fbm.wasm
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.w5pzpy0fbm.wasm.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.zxa3b5oga5.pdb.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\pb9m3id592-w5pzpy0fbm.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\wj5sv6vaf3-zxa3b5oga5.gz
-C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\1s6dbplra1-8r9carna54.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.0qc9gm2147.pdb
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.258ip5rcqe.wasm
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.258ip5rcqe.wasm.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\bin\Debug\net9.0\wwwroot\_framework\JenaWhiteFIOWeatherApp.0qc9gm2147.pdb.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\pb9m3id592-258ip5rcqe.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\wj5sv6vaf3-0qc9gm2147.gz
+C:\Users\jenal\source\repos\JenaWhiteFIOWeatherApp\obj\Debug\net9.0\compressed\1s6dbplra1-2ae7ozm75m.gz

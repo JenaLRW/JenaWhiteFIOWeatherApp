@@ -6,6 +6,7 @@
 @*input bar for UI to search city and state*@
 <input type="text" @bind="message" placeholder="Enter city and state" />
 <button @onclick="GetForecastAsync">Search</button>
+<button @onclick="Reset">Reset</button>
 
 
 
@@ -187,6 +188,15 @@
     {
         return celsius * 9 / 5 + 32;
     }
+
+    private void Reset()
+    {
+        message = "";
+        forecast = null;
+        errorMessage = null;
+        StateHasChanged();
+    }
+
 
 }
 
